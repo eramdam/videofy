@@ -60,7 +60,7 @@ function videofy(input, output, opts, fn) {
         if (error) return fn(error);
 
         // convert gif to tmp jpg
-        var cmd = ['convert', input, tmp];
+        var cmd = ['convert', '-coalesce', input, tmp];
         cmd = escape(cmd);
 
         debug('exec %s', cmd);
