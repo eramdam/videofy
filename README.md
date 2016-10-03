@@ -1,7 +1,9 @@
-videofy
+videofy-plus
 =======
 
-Covert animated gif to mp4.
+This is simply a fork of https://github.com/zjhiphop/videofy that correctly handles gifs whose consecutive frames are semi-transparent.
+
+Convert animated gif to mp4.
 
 
 Why?
@@ -12,7 +14,7 @@ Why?
 ![Source File](https://github.com/zjhiphop/videofy/raw/master/tmp/test.gif)
 > Source file 627KB
 
-<video src="https://github.com/zjhiphop/videofy/raw/master/tmp/test-mp4.mp4" controls autoplay><a href="https://github.com/zjhiphop/videofy/raw/master/tmp/test-mp4.mp4">Source Video</a></video> 
+<video src="https://github.com/zjhiphop/videofy/raw/master/tmp/test-mp4.mp4" controls autoplay><a href="https://github.com/zjhiphop/videofy/raw/master/tmp/test-mp4.mp4">Source Video</a></video>
 > Target File 26KB
 
 * User can control the speed of video
@@ -22,7 +24,7 @@ Example
 
 ```
 videofy('input.gif', 'output.mp4', function(error) {
-	
+
 
 })
 ```

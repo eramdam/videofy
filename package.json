@@ -1,7 +1,7 @@
 {
-    "name": "videofy",
-    "version": "0.0.2",
-    "repository": "git://github.com/zjhiphop/videofy",
+    "name": "videofy-plus",
+    "version": "0.0.3",
+    "repository": "git://github.com/eramdam/videofy",
     "description": "Convert animated gif to video",
     "keywords": [
         "gif",
